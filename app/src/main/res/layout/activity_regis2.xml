@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Regis2"
+    android:background="#363267">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="308dp"
+        android:layout_height="405dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="130dp"
+        android:background="@drawable/round"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonrad"
+            app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/male2"
+            app:srcCompat="@drawable/ic_group_78"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="217dp"
+            android:layout_marginEnd="245dp"
+            android:layout_marginBottom="140dp"
+            android:background="@drawable/buttonrad"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.881"
+            app:srcCompat="@drawable/ic_group_78"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="223dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="67dp"
+            android:background="@drawable/inputbg"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="DD/MM/YYYY"
+            android:importantForAutofill="no"
+            android:inputType="date"
+            android:textColor="#524cae"
+            android:textColorHighlight="#524cae"
+            android:textColorHint="#524cae"
+            android:textColorLink="#524cae"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintStart_toEndOf="@+id/imageButton"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="223dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="138dp"
+            android:background="@drawable/inputbg"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="DD/MM/YYYY"
+            android:inputType="date|datetime|textPersonName"
+            android:textColor="#524cae"
+            android:textColorHighlight="#524cae"
+            android:textColorHint="#524cae"
+            android:textColorLink="#524cae"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageButton2"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/fem1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="171dp"
+            android:layout_marginEnd="255dp"
+            android:layout_marginBottom="204dp"
+
+            android:background="@drawable/ic_female_2"
+            android:checked="true"
+            android:textColor="#00EDE7E7"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/male2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="255dp"
+            android:layout_marginBottom="351dp"
+            android:background="@drawable/man_act"
+
+
+            android:textColor="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="190dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/btnnext2"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Далее"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textIsSelectable="false"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.884"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
